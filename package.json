@@ -1,0 +1,19 @@
+{
+  "name": "web_automation_playwright_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "web-tests": "npx playwright test",
+    "prettier": "npx prettier --write .",
+    "playwright-codegen": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "prettier": "^3.6.2"
+  }
+}
