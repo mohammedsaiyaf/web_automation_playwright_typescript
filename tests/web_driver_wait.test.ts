@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { WaitPage } from "../pages/WaitPage";
+import { WaitPage } from "../pages/waitPage";
 
 test("test web waits", async ({ page }) => {
   const waitPage = new WaitPage(page); // Initialize the WaitPage object

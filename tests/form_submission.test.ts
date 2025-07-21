@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { FormPage } from "../pages/FormPage";
+import { FormPage } from "../pages/formPage";
 
 test("Form submission test", async ({ page }) => {
   const formPage = new FormPage(page); // Initialize the page object
